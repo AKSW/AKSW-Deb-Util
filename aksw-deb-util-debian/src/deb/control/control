@@ -1,0 +1,8 @@
+Package: aksw-deb-util
+Version: [[version]]
+Section: web
+Priority: optional
+Architecture: all
+Maintainer: Claus Stadler <cstadler@informatik.uni-leipzig.de>
+Description: Utils for setting up AKSW Debian packages
+Distribution: ldstack-nightly

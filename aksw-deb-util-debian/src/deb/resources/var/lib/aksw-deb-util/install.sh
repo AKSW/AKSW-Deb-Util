@@ -9,10 +9,12 @@ function doBackup() {
     src="$1"
     file="$2"
 
-    if [ ! -f "$tgt/$file" ]; then
-        cp "$src/$file" "$tgt"
-    else
-        echo "WARNING: Backup of $file already exists in $src - not overridden"
+    if [ -f "$src/$file" ]; then
+        if [ ! -f "$tgt/$file" ]; then
+            cp "$src/$file" "$tgt"
+        else
+            echo "WARNING: Backup of $file already exists in $src - not overridden"
+        fi
     fi
 }
 

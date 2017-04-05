@@ -19,11 +19,11 @@ function doBackup() {
 }
 
 doBackup "/usr/share/java/" "tomcat-dbcp-7.0.30.jar"
-doBackup "/usr/share/tomcat7/lib/" "postgresql-8.4-701.jdbc4.jar"
+doBackup "/usr/share/tomcat7/lib/" "postgresql-9.4.1209.jre7.jar"
 
 # Copy the files
 src="$DIR/files/"
 
-cp "$src/tomcat-dbcp-7.0.30.jar" /usr/share/tomcat7/lib/tomcat-dbcp-7.0.30.jar
-cp "$src/postgresql-8.4-701.jdbc4.jar" /usr/share/tomcat7/lib/postgresql-8.4-701.jdbc4.jar
+cp "$src/tomcat-dbcp-7.0.30.jar" "/usr/share/tomcat7/lib/tomcat-dbcp-7.0.30.jar"
+cp "$src/postgresql-9.4.1209.jre7.jar" "/usr/share/tomcat7/lib/postgresql-9.4.1209.jre7.jar"
 

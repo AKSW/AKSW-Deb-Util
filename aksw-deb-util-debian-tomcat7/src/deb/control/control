@@ -1,4 +1,4 @@
-Package: aksw-deb-util
+Package: aksw-deb-util-tomcat7
 Version: [[version]]
 Section: web
 Priority: optional

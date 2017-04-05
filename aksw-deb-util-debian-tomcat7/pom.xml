@@ -9,15 +9,15 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>aksw-deb-util-debian</artifactId>
+    <artifactId>aksw-deb-util-debian-tomcat7</artifactId>
     <packaging>jar</packaging>
 
 
-    <name>AKSW-Deb-Util - Debian Packaging</name>
+    <name>AKSW-Deb-Util - Debian Packaging for tomcat7</name>
 
 
     <properties>
-        <deb.packageName>aksw-deb-util</deb.packageName>
+        <deb.packageName>aksw-deb-util-tomcat7</deb.packageName>
         <!-- <tomcat.context.name>facete2</tomcat.context.name> -->
     </properties>
 

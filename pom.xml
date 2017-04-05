@@ -28,7 +28,7 @@
 
 
     <modules>
-        <module>aksw-deb-util-debian</module>
+        <module>aksw-deb-util-debian-tomcat7</module>
     </modules>
 
 

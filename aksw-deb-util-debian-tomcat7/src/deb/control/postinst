@@ -1,3 +1,3 @@
 #!/bin/sh
-/var/lib/aksw-deb-util/install.sh
+/var/lib/aksw-deb-util-tomcat7/install.sh
 
